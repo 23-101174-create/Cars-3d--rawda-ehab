@@ -32,7 +32,7 @@ body{
     display: flex;
     width: 100%;
     align-items: center;
-    padding: 18px;
+    padding: 19px;
     gap: 215px;
     position: fixed;
     top: 0;
@@ -88,4 +88,20 @@ body{
     border: 2px solid #FFF;
     background: #161D21;
     transform: scale(1.1);
+}
+.hero-text{
+    font-family: "Gaming Sporty";
+    margin-bottom: 200px;
+    margin-right: 600px;
+    font-size: 88px;
+    font-weight: 400;
+    letter-spacing: 7.92px;
+    background: linear-gradient(99deg, #FFF -27.86%, #556166 118.81%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.car-hero{
+    width: 944px;
+    height: 403px;
 }

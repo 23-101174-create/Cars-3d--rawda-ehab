@@ -29,9 +29,16 @@ body{
     justify-content: center;
 }
 .nav-bar{
-    display: inline-flex;
+    display: flex;
+    width: 100%;
     align-items: center;
-    gap: 145px;
+    padding: 18px;
+    gap: 215px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    justify-content: center;
 }
 .logo{
     width: 154px;
@@ -40,19 +47,25 @@ body{
 .nav-text{
     display: flex;
     align-items: center;
-    gap: 33px;
+    gap: 38px;
 }
 .text-1{
     color: #556166;
     font-family: "Poppins";
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
+    text-decoration: none;
 }
 .text-2{
     color: #E9F8FF;
     font-family: "Poppins";
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
+}
+.text-2:hover{
+    color: #556166;
 }
 .button{
     display: flex;
@@ -67,7 +80,7 @@ body{
     color: #E9F8FF;
     font-family: "Poppins";
     font-size: 18px;
-    font-weight: 600; 
+    font-weight: 400; 
     transition: all 200ms ease-in-out;
     transition: transform 0.3s;
 }

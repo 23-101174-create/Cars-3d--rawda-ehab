@@ -5,3 +5,6 @@ document.getElementById("About") .innerHTML = "About";
 document.getElementById("Contact") .innerHTML = "Contact";
 document.getElementById("button-1") .innerHTML = "Login";
 document.getElementById("hero-text") .innerHTML = "Mercedes";
+document.getElementById("gallery-title") .innerHTML = "Gallery"
+document.getElementById("title-1") .innerHTML = "The Mercedes Gallery"
+document.getElementById("button-2") .innerHTML = "Explore More";

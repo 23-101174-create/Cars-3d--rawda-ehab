@@ -2,6 +2,10 @@
     font-family:"Gaming Sporty";
     src: url(fonts/GamingSporty.ttf);
 }
+@font-face{
+    font-family:"Vipnagorgialla";
+    src: url(fonts/Vipnagorgialla\ Bd\ It.otf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -29,6 +33,7 @@ body{
     justify-content: center;
 }
 .nav-bar{
+    background-color:rgba(0, 0, 0, 0.345);
     display: flex;
     width: 100%;
     align-items: center;
@@ -91,8 +96,7 @@ body{
 }
 .hero-text{
     font-family: "Gaming Sporty";
-    margin-bottom: 200px;
-    margin-right: 600px;
+    margin-left: 85px;
     font-size: 88px;
     font-weight: 400;
     letter-spacing: 7.92px;
@@ -102,6 +106,113 @@ body{
     -webkit-text-fill-color: transparent;
 }
 .car-hero{
-    width: 944px;
-    height: 403px;
+    width: 1543px;
+    height: 600px;
+    margin-top: 436px;
+}
+.sec-section{
+    width: 100%;
+    height: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+}
+.gallery-box{
+    width: 320px;
+    height: 79.67px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.polygon{
+    width: 122px;
+    height: 55px;
+}
+.gallery{
+    color: #FFF;
+    font-family: "Vipnagorgialla";
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 3.24px;
+}
+.title{
+    color: #FFF;
+    text-align: center;
+    font-family: "Vipnagorgialla";
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 2.7px;
+}
+.mercedes-box{
+    width: 1120px;
+    height: 644px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.mercedes-box-2{
+    width: 1120px;
+    height: 307px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+/* .box-img{
+    width: 550px;
+    height: 307px;
+}
+.box-img:hover{
+    width: 550px;
+    height: 307px;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.80) 100%), url(<path-to-image>) lightgray -0.2px -37px / 100.073% 112.052% no-repeat;
+
+} */
+.box-img {
+    width: 550px;
+    height: 307px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.box-img:hover {
+    filter: brightness(0.10);
+    box-shadow:rgba(0, 0, 0, 0.576);
+}
+.last-box-img{
+    width: 1120px;
+    height: 326px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.last-box-img:hover {
+    filter: brightness(0.10);
+    box-shadow:rgba(0, 0, 0, 0.576);
+}
+.button-2{
+    display: flex;
+    width: 740px;
+    height: 60px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    background: #3B484F;
+    color: #E9F8FF;
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 400; 
+    transition: all 200ms ease-in-out;
+    transition: transform 0.3s;
+}
+.button-2:hover{
+    border: 2px solid #FFF;
+    background: #161D21;
+    transform: scale(1.1);
 }

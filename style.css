@@ -181,7 +181,7 @@ body{
 }
 
 .box-img:hover {
-    filter: brightness(0.10);
+    filter: brightness(0.65);
     box-shadow:rgba(0, 0, 0, 0.576);
 }
 .last-box-img{
@@ -191,7 +191,7 @@ body{
     cursor: pointer;
 }
 .last-box-img:hover {
-    filter: brightness(0.10);
+    filter: brightness(0.55);
     box-shadow:rgba(0, 0, 0, 0.576);
 }
 .button-2{
@@ -215,4 +215,12 @@ body{
     border: 2px solid #FFF;
     background: #161D21;
     transform: scale(1.1);
+}
+.models-section{
+    width: 100%;
+    height: 3087px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
 }

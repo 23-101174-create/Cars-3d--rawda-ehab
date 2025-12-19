@@ -34,9 +34,6 @@
             <button slot="ar-button" id="ar-button">
                 View in your space
             </button>
-            <!-- <div id="ar-prompt">
-                <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
-            </div> -->
         </model-viewer>
     </section>
 
@@ -58,7 +55,47 @@
             </div>
             <img class="last-box-img" src="imgs/side.png">
             <div class="button-2" id="button-2"></div>
+    </section>
 
+    <section class="models-section">
+        <div class="models-button">
+        <div class="models-box">
+            <img class="polygon" src="imgs/Polygon.png">
+            <p class="models" id="models-title"></p>
+        </div>
+    </div>
+    <div class="button-box">
+        <div class="button-3" id="button-3"></div>
+        <div class="button-4" id="button-4"></div>
+    </div>
+
+    <div class="cards-box">
+        <div class="card">
+            <div class="inner-box">
+                <p class="title-text" id="tiguan"></p>
+                <model-viewer     
+                class="car-size"
+                src="model-1/volkswagen_tiguan_2020.glb"
+                ar
+                ar-modes="webxr scene-viewer quick-look"
+                camera-controls
+                camera-orbit="40deg 75deg 3.8m"
+                camera-target="0m 0.3m 0m"
+                bounds="tight"
+                tone-mapping="neutral"
+                shadow-intensity="1.06"
+                exposure="1.11">
+                    <div class="progress-bar hide" slot="progress-bar">
+                        <div class="update-bar"></div>
+                    </div>
+                    <button slot="ar-button" id="ar-button">
+                        View in your space
+                    </button>
+                </model-viewer>
+
+            </div>
+        </div>
+    </div>
     </section>
 
     

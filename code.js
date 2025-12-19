@@ -8,3 +8,7 @@ document.getElementById("hero-text") .innerHTML = "Mercedes";
 document.getElementById("gallery-title") .innerHTML = "Gallery"
 document.getElementById("title-1") .innerHTML = "The Mercedes Gallery"
 document.getElementById("button-2") .innerHTML = "Explore More";
+document.getElementById("models-title") .innerHTML = "Models";
+document.getElementById("button-3") .innerHTML = "Electric";
+document.getElementById("button-4") .innerHTML = "Luxury";
+document.getElementById("tiguan") .innerHTML = "Volkswagen Tiguan";

@@ -223,4 +223,114 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 75px;
+    justify-content: center;
 }
+.models-button{
+    display: flex;
+    width: 550px;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+}
+.models-box{
+    width: 320px;
+    height: 79.67px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.models{
+    color: #FFF;
+    font-family: "Vipnagorgialla";
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 3.24px;
+}
+.button-box{
+    display: flex;
+    width: 550px;
+    align-items: center;
+    gap: 20px;
+}
+.button-3{
+    display: flex;
+    width: 265px;
+    height: 60px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    background: #3B484F;
+    color: #E9F8FF;
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 400; 
+    transition: all 200ms ease-in-out;
+    transition: transform 0.3s;
+}
+.button-3:hover{
+    border: 2px solid #FFF;
+    background: #161D21;
+    transform: scale(1.1);
+}
+.button-4{
+    display: flex;
+    width: 270px;
+    height: 67px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #FFF;
+    border-radius: 18px;
+    background: #161D21;
+    color: #E9F8FF;
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 400; 
+    transition: all 200ms ease-in-out;
+    transition: transform 0.3s;
+}
+.cards-box{
+    display: inline-grid;
+    row-gap: 33px;
+    column-gap: 20px;
+    grid-template-rows: repeat(4, fit-content(100%));
+    grid-template-columns: repeat(2, fit-content(100%));
+}
+.card{
+    width: 550px;
+    height: 572px;
+    background-image: url(imgs/back-tiguan.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-box{
+    display: flex;
+    width: 502px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 185px;
+}
+.title-text{
+    color: #FFF;
+    text-align: center;
+    font-family: "Vipnagorgialla";
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 2.52px;
+}
+.car-size{
+    width: 502px;
+    height: 279px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

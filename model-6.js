@@ -63,3 +63,18 @@ circles.forEach(circle => {
     circle.style.border = '2px solid white';
   });
 });
+
+const burgerMenu = document.querySelector('.burger-menu');
+const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
+
+burgerMenu.addEventListener('click', () => {
+    burgerMenu.classList.toggle('active');
+    mobileMenuOverlay.classList.toggle('active');
+});
+
+document.querySelectorAll('.mobile-menu-content a').forEach(link => {
+    link.addEventListener('click', () => {
+        burgerMenu.classList.remove('active');
+        mobileMenuOverlay.classList.remove('active');
+    });
+});

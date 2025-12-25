@@ -818,7 +818,6 @@ body{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* ========== TABLET STYLES (768px - 1024px) ========== */
 @media (max-width: 1024px) {
     .nav-bar {
         gap: 50px;
@@ -905,8 +904,6 @@ body{
         padding: 60px 40px;
     }
 }
-
-/* ========== MOBILE STYLES (max-width: 768px) ========== */
 @media (max-width: 768px) {
     .background-img {
         height: 100vh;
@@ -922,14 +919,10 @@ body{
         width: 100px;
         height: 55px;
     }
-    
-    /* Hide desktop menu */
     .nav-text,
     .nav-bar .button {
         display: none;
     }
-    
-    /* Show burger menu */
     .burger-menu {
         display: flex;
     }
@@ -1127,8 +1120,6 @@ body{
         right: 20px;
     }
 }
-
-/* ========== SMALL MOBILE (max-width: 480px) ========== */
 @media (max-width: 480px) {
     .nav-bar {
         padding: 12px 15px;

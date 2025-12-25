@@ -31,6 +31,7 @@ document.getElementById("subscribe-title").innerHTML = "Subscribe";
 document.getElementById("subscribe-description").innerHTML = "Stay updated with the latest car releases, luxury updates, and exclusive offers from SilverStar Motors";
 document.getElementById("subscribe-email-input").placeholder = "Enter your email";
 document.getElementById("subscribe-button").innerHTML = "Submit";
+
 const scrollBtn = document.createElement('div');
 scrollBtn.innerHTML = '↑';
 scrollBtn.classList.add('scroll');

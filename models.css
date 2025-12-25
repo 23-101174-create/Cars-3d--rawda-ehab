@@ -99,9 +99,21 @@ body{
     align-items: center;
     justify-content: center;
 }
+.background-img-2{
+    background-image: url(imgs/bmw-back-model.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .car-hero{
     width: 845px;
-    height: 450.179px;
+    height: 470px;
     margin-top: 435px;
 }
 .title{
@@ -203,7 +215,7 @@ body{
     align-items: center;
     gap: 25px;
 }
-.circle-1, .circle-2, .circle-3, .circle-4{  
+.circle-1, .circle-2, .circle-3, .circle-4, .circle-5{  
     width: 65px;
     height: 65px;
     border-radius: 50%;
@@ -220,6 +232,9 @@ body{
 }
 .circle-4{
     background: linear-gradient(270deg, #88071D 16.22%, #C82431 99.86%);
+}
+.circle-5{
+    background: linear-gradient(270deg, #1E314A 4.3%, #90A1BB 128.04%);
 }
 .footer {
     display: flex;

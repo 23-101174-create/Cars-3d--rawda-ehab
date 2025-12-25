@@ -257,7 +257,7 @@ body{
     width: 872px;
     flex-direction: column;
     align-items: center;
-    gap: 110px;
+    gap: 125px;
     margin-left: 360px;
 }
 .title-model-box{
@@ -296,7 +296,7 @@ body{
     align-items: center;
     gap: 25px;
 }
-.circle-1, .circle-2, .circle-3, .circle-4, .circle-5, .circle-6, .circle-7{  
+.circle-1, .circle-2, .circle-3, .circle-4, .circle-5, .circle-6, .circle-7, .circle-8{  
     width: 65px;
     height: 65px;
     border-radius: 50%;
@@ -322,6 +322,9 @@ body{
 }
 .circle-7{
     background: linear-gradient(270deg, #D08600 0.06%, #E7D26F 99.93%);
+}
+.circle-8{
+    background: linear-gradient(270deg, #D33B6E 0.06%, #DB6997 99.93%);
 }
 .footer {
     display: flex;

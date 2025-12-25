@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=ADLaM+Display&family=Abhaya+Libre:wght@400;500;600;700;800&family=Actor&family=Agbalumo&family=Akatab:wght@400;500;600;700;800;900&family=Akaya+Telivigala&family=Akshar:wght@300..700&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Aleo:ital,wght@0,100..900;1,100..900&family=Allison&family=Almarai:wght@300;400;700;800&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Archivo:ital,wght@0,100..900;1,100..900&family=BioRhyme:wght@200..800&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Edu+TAS+Beginner:wght@400..700&family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Fragment+Mono:ital@0;1&family=Galada&family=Heebo:wght@100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="models.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <img class="logo" src="imgs/logo.png">
+        <li class="nav-text">
+            <a class="text-2" href="index.html" id="Home"></a>
+            <a class="text-2" href="#" id="Gallery"></a>
+            <a class="text-2" href="#" id="Models"></a>
+            <a class="text-2" href="#" id="About"></a>
+            <a class="text-2" href="#" id="Contact"></a>
+        </li>
+        <div class="button" id="button-1"></div>
+    </nav>
+    </header>
+
+    <section class="background-img">
+        <p class="title" id="title"></p>
+        <model-viewer class="car-hero" src="model-1/volkswagen_tiguan_2020.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls camera-orbit="30deg 89deg 4m" tone-mapping="neutral" shadow-intensity="1.05" exposure="1.3" shadow-softness="1">
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+            <button slot="ar-button" id="ar-button">
+                View in your space
+            </button>
+        </model-viewer>
+    </section>
+
+    <section class="box-details">
+        <div class="text-box">
+            <p class="details" id="1"></p>
+            <p class="details" id="2"></p>
+            <p class="details" id="3"></p>
+            <p class="details" id="4"></p>
+            <p class="details" id="5"></p>
+            <p class="details" id="6"></p>
+        </div>
+        <img class="image" src="imgs/tiguan1.png">
+      </section>
+<!-- 
+      <section class="model-background">
+        <div class="all-inner">
+            <div class="center">
+                <div class="title-model-box">
+                    <p class="title-model" id="title-2"></p>
+                    <p class="subtitle" id="sub"></p>
+                </div>
+                <model-viewer class="car-size" src="model-1/volkswagen_tiguan_2020.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls camera-orbit="270deg 89deg 4m" tone-mapping="neutral" shadow-intensity="1.06" exposure="1.11">
+                    <div class="progress-bar hide" slot="progress-bar">
+                        <div class="update-bar"></div>
+                    </div>
+                    <button slot="ar-button" id="ar-button">
+                        View in your space
+                    </button>
+                </model-viewer>
+            </div>
+            <div class="circle-box">
+                <div class="circle-1"></div>
+                <div class="circle-2"></div>
+                <div class="circle-3"></div>
+                <div class="circle-4"></div>
+            </div>
+        </div>
+      </section> -->
+
+      <section class="model-background">
+        <div class="all-inner">
+            <div class="center">
+                <div class="title-model-box">
+                    <p class="title-model" id="title-2"></p>
+                    <p class="subtitle" id="sub"></p>
+                </div>
+                <model-viewer class="car-size" id="carModel" src="model-1/volkswagen_tiguan_2020.glb" 
+                  ar ar-modes="webxr scene-viewer quick-look" camera-controls camera-orbit="270deg 89deg 4m" 
+                  tone-mapping="neutral" shadow-intensity="1.06" exposure="1.11">
+                    <div class="progress-bar hide" slot="progress-bar">
+                        <div class="update-bar"></div>
+                    </div>
+                    <button slot="ar-button" id="ar-button">
+                        View in your space
+                    </button>
+                </model-viewer>
+            </div>
+            <div class="circle-box">
+                <div class="circle-1" data-src="tigu-2/volkswagen_tiguan_2020.glb"></div>
+                <div class="circle-2" data-src="model-1/volkswagen_tiguan_2020.glb"></div>
+                <div class="circle-3" data-src="tigu-3/volkswagen_tiguan_2020.glb"></div>
+                <div class="circle-4" data-src="tigu-4/volkswagen_tiguan_2020.glb"></div>
+            </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-left">
+          <img id="footer-logo" class="footer-logo" src="imgs/logo-footer.png" alt="Logo" />
+          <p><b id="label-address"></b> <span id="address-text"></span></p>
+          <p><b id="label-city"></b></p>
+          <p><b id="label-email"></b> <span id="email-text"></span></p>
+          <p><b id="label-phone"></b> <span id="phone-text"></span></p>
+          <p id="footer-bottom-text"></p>
+        </div>
+      
+        <div class="footer-center">
+          <b id="footer-center-title"></b>
+          <nav>
+            <a id="nav-home" href="#"></a>
+            <a id="nav-gallery" href="#"></a>
+            <a id="nav-models" href="#"></a>
+            <a id="nav-about" href="#"></a>
+            <a id="nav-contact" href="#"></a>
+          </nav>
+        </div>
+      
+        <div class="footer-right">
+          <b id="subscribe-title"></b>
+          <p id="subscribe-description"></p>
+          <form>
+            <input id="subscribe-email-input" type="email" placeholder="" required />
+            <button id="subscribe-button" type="submit"></button>
+          </form>
+        </div>
+      </footer>
+    <script src="models.js"></script>
+</body>
+</html>

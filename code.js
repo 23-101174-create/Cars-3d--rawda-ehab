@@ -63,3 +63,29 @@ scrollBtn.addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+
+
+document.getElementById('Gallery').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('.sec-section').scrollIntoView({ 
+        behavior: 'smooth' 
+    });
+});
+document.getElementById('Models').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('.models-section').scrollIntoView({ 
+        behavior: 'smooth' 
+    });
+});
+document.getElementById('About').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('.last-pic').scrollIntoView({ 
+        behavior: 'smooth' 
+    });
+});
+document.getElementById('Contact').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('.footer').scrollIntoView({ 
+        behavior: 'smooth' 
+    });
+});

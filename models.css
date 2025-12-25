@@ -116,6 +116,11 @@ body{
     height: 470px;
     margin-top: 435px;
 }
+.car-hero2{
+    width: 845px;
+    height: 500px;
+    margin-top: 435px;
+}
 .title{
     width: 318px;
     height: 116px;
@@ -209,13 +214,17 @@ body{
     width: 100%;
     height: 450px;    
 }
+.car-size2{
+    width: 100%;
+    height: 460px;    
+}
 .circle-box{
     display: flex;
     transform: rotate(90deg);
     align-items: center;
     gap: 25px;
 }
-.circle-1, .circle-2, .circle-3, .circle-4, .circle-5{  
+.circle-1, .circle-2, .circle-3, .circle-4, .circle-5, .circle-6{  
     width: 65px;
     height: 65px;
     border-radius: 50%;
@@ -235,6 +244,9 @@ body{
 }
 .circle-5{
     background: linear-gradient(270deg, #1E314A 4.3%, #90A1BB 128.04%);
+}
+.circle-6{
+    background: linear-gradient(270deg, #0D490F 0.06%, #0B2B09 99.93%);
 }
 .footer {
     display: flex;

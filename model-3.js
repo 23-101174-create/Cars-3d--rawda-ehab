@@ -24,12 +24,12 @@ document.getElementById("subscribe-title").innerHTML = "Subscribe";
 document.getElementById("subscribe-description").innerHTML = "Stay updated with the latest car releases, luxury updates, and exclusive offers from SilverStar Motors";
 document.getElementById("subscribe-email-input").placeholder = "Enter your email";
 document.getElementById("subscribe-button").innerHTML = "Submit";
-document.getElementById("title-head") .innerHTML = "Model: BMW 8 Series";
-document.getElementById("7").innerHTML ="<span class='label'>Drive:</span> Rear-wheel drive (RWD) or optional xDrive AWD";
+document.getElementById("title-head") .innerHTML = "Model: Mini Cooper";
+document.getElementById("7").innerHTML ="<span class='label'>Drive:</span> Front‑wheel drive (FWD) (standard)";
 document.getElementById("8").innerHTML ="<span class='label'>Transmission:</span> Automatic";
 document.getElementById("9").innerHTML ="<span class='label'>Body Style:</span> 2-door coupe";
-document.getElementById("10").innerHTML ="<span class='label'>Seating:</span>  4 passengers ";
-document.getElementById("11").innerHTML ="<span class='label'>Type:</span> Luxury Sports Coupe";
+document.getElementById("10").innerHTML ="<span class='label'>Seating:</span> 4 passengers";
+document.getElementById("11").innerHTML ="<span class='label'>Type:</span>  Luxury Sports Coupe";
 document.getElementById("12").innerHTML ="3,500,000 EGP";
 
 const scrollBtn = document.createElement('div');

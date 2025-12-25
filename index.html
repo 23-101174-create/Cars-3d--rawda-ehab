@@ -45,15 +45,30 @@
             <p class="title" id="title-1"></p>
             <div class="mercedes-box">
                 <div class="mercedes-box-2">
-                    <img class="box-img" src="imgs/front-1.png">
-                    <img class="box-img" src="imgs/back-1.png">
+                    <div class="img-box">
+                        <img src="imgs/front-1.png" alt="front view">
+                        <span class="text">FRONT VIEW</span>
+                      </div>                      
+                      <div class="img-box">
+                        <img src="imgs/back-1.png" alt="back View">
+                        <span class="text">back View</span>
+                      </div>  
                 </div>
                 <div class="mercedes-box-2">
-                    <img class="box-img" src="imgs/back-2.png">
-                    <img class="box-img" src="imgs/front-2.png">
+                    <div class="img-box">
+                        <img src="imgs/back-2.png" alt="side back View">
+                        <span class="text">side back View</span>
+                      </div>  
+                      <div class="img-box">
+                        <img src="imgs/front-2.png" alt="Front side View">
+                        <span class="text">Front side View</span>
+                      </div> 
                 </div>
             </div>
-            <img class="last-box-img" src="imgs/side.png">
+            <div class="img-box last-box-img">
+                <img src="imgs/side.png">
+                <span class="text">SIDE VIEW</span>
+              </div>
             <div class="button-2" id="button-2"></div>
     </section>
 
@@ -70,21 +85,12 @@
     </div>
 
     <div class="cards-box">
+        <div class="car-box-row">
+            <div class="car-box">
         <div class="card">
             <div class="inner-box">
                 <p class="title-text" id="tiguan"></p>
-                <model-viewer     
-                class="car-size"
-                src="model-1/volkswagen_tiguan_2020.glb"
-                ar
-                ar-modes="webxr scene-viewer quick-look"
-                camera-controls
-                camera-orbit="40deg 75deg 3.8m"
-                camera-target="0m 0.3m 0m"
-                bounds="tight"
-                tone-mapping="neutral"
-                shadow-intensity="1.06"
-                exposure="1.11">
+                <model-viewer class="car-size" src="model-1/volkswagen_tiguan_2020.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls camera-orbit="40deg 89deg 4m" tone-mapping="neutral" shadow-intensity="1.06" exposure="1.11">
                     <div class="progress-bar hide" slot="progress-bar">
                         <div class="update-bar"></div>
                     </div>
@@ -92,9 +98,132 @@
                         View in your space
                     </button>
                 </model-viewer>
-
             </div>
         </div>
+        <div class="button-car">View details</div>
+    </div>
+    <div class="car-box">
+        <div class="card-2">
+            <div class="inner-box">
+                <p class="title-text" id="bmw"></p>
+                <model-viewer class="car-size" src="model-2/2021_bmw_430i_xdrive_coupe_4-series.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls camera-orbit="40deg 89deg 0m" tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+                    <div class="progress-bar hide" slot="progress-bar">
+                        <div class="update-bar"></div>
+                    </div>
+                    <button slot="ar-button" id="ar-button">
+                        View in your space
+                    </button>
+                </model-viewer>
+            </div>
+        </div>
+        <div class="button-car">View details</div>
+    </div>
+    </div>
+
+    <div class="car-box-row">
+        <div class="car-box">
+    <div class="card-3">
+        <div class="inner-box">
+            <p class="title-text" id="mini"></p>
+            <model-viewer class="car-size" src="model-3/mini_cooper_s.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls camera-orbit="40deg 89deg 4m" tone-mapping="neutral" shadow-intensity="1.06" exposure="1.11">
+                <div class="progress-bar hide" slot="progress-bar">
+                    <div class="update-bar"></div>
+                </div>
+                <button slot="ar-button" id="ar-button">
+                    View in your space
+                </button>
+            </model-viewer>
+        </div>
+    </div>
+    <div class="button-car">View details</div>
+</div>
+<div class="car-box">
+    <div class="card-4">
+        <div class="inner-box">
+            <p class="title-text" id="fe"></p>
+            <model-viewer class="car-size" src="model-4/2020_ferrari_f8_spider.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls camera-orbit="40deg 89deg 0m" tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+                <div class="progress-bar hide" slot="progress-bar">
+                    <div class="update-bar"></div>
+                </div>
+                <button slot="ar-button" id="ar-button">
+                    View in your space
+                </button>
+            </model-viewer>
+        </div>
+    </div>
+    <div class="button-car">View details</div>
+</div>
+</div>
+
+<div class="car-box-row">
+    <div class="car-box">
+<div class="card-5">
+    <div class="inner-box">
+        <p class="title-text" id="ma"></p>
+        <model-viewer class="car-size" src="model-5/2014_maserati_granturismo_mc_stradale.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls camera-orbit="40deg 89deg 4m" tone-mapping="neutral" shadow-intensity="1.06" exposure="1.11">
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+            <button slot="ar-button" id="ar-button">
+                View in your space
+            </button>
+        </model-viewer>
+    </div>
+</div>
+<div class="button-car">View details</div>
+</div>
+<div class="car-box">
+<div class="card-6">
+    <div class="inner-box">
+        <p class="title-text" id="audi"></p>
+        <model-viewer class="car-size" src="model-6/2021_audi_rs3_sportback.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls camera-orbit="40deg 89deg 0m" tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+            <button slot="ar-button" id="ar-button">
+                View in your space
+            </button>
+        </model-viewer>
+    </div>
+</div>
+<div class="button-car">View details</div>
+</div>
+</div>
+
+<div class="car-box-row">
+    <div class="car-box">
+<div class="card-7">
+    <div class="inner-box">
+        <p class="title-text" id="mer"></p>
+        <model-viewer class="car-size" src="model-7/2020_mercedes-benz_amg_c63s.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls camera-orbit="40deg 89deg 4m" tone-mapping="neutral" shadow-intensity="1.06" exposure="1.11">
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+            <button slot="ar-button" id="ar-button">
+                View in your space
+            </button>
+        </model-viewer>
+    </div>
+</div>
+<div class="button-car">View details</div>
+</div>
+<div class="car-box">
+<div class="card-8">
+    <div class="inner-box">
+        <p class="title-text" id="po"></p>
+        <model-viewer class="car-size" src="model-8/2016_porsche_918_spyder.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls camera-orbit="40deg 89deg 0m" tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+            <button slot="ar-button" id="ar-button">
+                View in your space
+            </button>
+        </model-viewer>
+    </div>
+</div>
+<div class="button-car">View details</div>
+</div>
+</div>
     </div>
     </section>
 
